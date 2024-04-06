@@ -18,9 +18,9 @@ searchBtn.addEventListener("click", () => {
       //     Object.values(data[0].languages).toString().split(",").join(", ")
       //   );
       result.innerHTML = `\
+      <div class="gambar">
         <img src="${data[0].flags.svg}" class="flag-image">
         <img src="${data[0].coatOfArms.svg}" class="logo-image">
-        </div>
         </div>
         <h2>${data[0].name.common}</h2>
         <div class="wrapper">
